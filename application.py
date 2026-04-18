@@ -1,7 +1,7 @@
 import funtions as f
 from flask import Flask, jsonify
 
-# Heroes API -- By: @dso-uniandes (Daniel M. Serna O)
+# Heroes API -- By: @dso-uniandes (Daniel M. Serna O) :)
 # Just add:
 # Specific Autoscaling permissions to the service role
 # Specific Cloudformation permissions to the service role
