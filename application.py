@@ -1,7 +1,14 @@
 import funtions as f
 from flask import Flask, jsonify
 
-# Heroes API -- By: @dso-uniandes (Daniel M. Se)
+# Heroes API -- By: @dso-uniandes (Daniel M. Serna)
+# Just add:
+# Specific Autoscaling permissions to the service role
+# Specific Cloudformation permissions to the service role
+# Specific EC2 permissions to the service role
+# Specific Elasticbeanstalk permissions to the service role
+# Specific S3 permissions to the service role
+# Specific SNS permissions to the service role
 
 application = Flask(__name__)
 data = f.load_file('./heroes.csv')
