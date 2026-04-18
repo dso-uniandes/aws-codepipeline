@@ -1,7 +1,7 @@
 import funtions as f
 from flask import Flask, jsonify
 
-# Heroes API
+# Heroes API -- By: @dso-uniandes
 
 application = Flask(__name__)
 data = f.load_file('./heroes.csv')
